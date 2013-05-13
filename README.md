@@ -13,3 +13,15 @@ Once you have the database and osm table simply call
 select get_block(@latitude, @longitude) 
 ```
 to get your streets.
+
+The function will return an array of json objects...
+
+```js
+[{
+	Id: (id of way),
+	Name: (name of osm street),
+	StartId: (Id of start node),
+	EndId: (Id of end node),
+	StreeGeom: (geojson object that represents the street)
+}]
+```
