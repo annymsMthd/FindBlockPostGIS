@@ -86,7 +86,6 @@ CREATE OR REPLACE FUNCTION get_block(latitude double precision, longitude double
 		firstStreet record;
 		notReversed boolean;
 		endId bigint;
-		line geometry;
 		startId bigint;
 		lastStreet record;
 		lastGeom geometry;
