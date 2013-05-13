@@ -22,6 +22,6 @@ The function will return an array of json objects...
 	Name: (name of osm street),
 	StartId: (Id of start node),
 	EndId: (Id of end node),
-	StreeGeom: (geojson object that represents the street)
+	StreetGeom: (geojson object that represents the street)
 }]
 ```
